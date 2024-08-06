@@ -1,0 +1,30 @@
+# TIC TAC TOE
+
+## 🌟 About
+
+The purpose of this project is to implement some new features.<br>
+New features added:
+
+- You can input your names
+- Score associated with two names are retained, no matter the order you enter those: A:B or B:A
+- Score remains associated with two names even if you enter: "John" or "JOHN".
+- Beginning score with one or both new names (non-existing in localStorage) are always 0:0
+- Added possibility to change Players after a gameplay - scores are separated as usually...
+
+## 🎯 Future goals
+
+- Responsive design
+- Design adapted to my needs
+- Any unthough featuers still to add...
+- Maybe some timing features???
+- Any ideas - share those with me.
+- CLEANER CODE ...
+
+## 🎅 Authors
+
+ORIGINAL FROM Vitalijus: [Github](https://github.com/vitalijuss)
+Site published at: https://vitalijuss.github.io/tic_tac_toe/
+
+MY VERSION : [Github](https://github.com/bartasd)
+MY VERSION published at: https://bartasd.github.io/tic_tac_toe/
+I REWROTE THE JS GAME CLASS FROM SCRATH FOR LEARNING/REMEMBERING PORPOSES...

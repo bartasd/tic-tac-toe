@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doc</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>TIC TAC TOE</h1>
+      <div class="scoreBoard">
+        <div class="turn"></div>
+        <div>
+          <p id="pl1"></p>
+          <p id="scoreX">0</p>
+        </div>
+
+        <span>:</span>
+        <div class="turn"></div>
+        <div>
+          <p id="pl2"></p>
+          <p id="score0">0</p>
+        </div>
+      </div>
+      <section class="boardContainer">
+        <div class="row row1 border2">
+          <div class="tile"></div>
+          <div class="tile border"></div>
+          <div class="tile border"></div>
+        </div>
+        <div class="row row2 border2">
+          <div class="tile"></div>
+          <div class="tile border"></div>
+          <div class="tile border"></div>
+        </div>
+        <div class="row row3">
+          <div class="tile"></div>
+          <div class="tile border"></div>
+          <div class="tile border"></div>
+        </div>
+      </section>
+      <div class="status">
+        <p id="winMessageContainer"></p>
+        <div>
+          <button type="button" id="restart">Restart</button>
+          <button type="button" id="reset">Reset</button>
+          <button type="button" id="chPlayer">Change Players</button>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
