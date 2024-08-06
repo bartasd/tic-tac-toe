@@ -4,27 +4,27 @@
 
 Welcome to the Tic Tac Toe project! This version introduces several exciting new features:
 
-- **Custom Player Names**: You can now input and save custom names for players.
-- **Persistent Scores**: Player scores are retained regardless of name entry order (e.g., A:B or B:A) and case (e.g., "John" or "JOHN").
-- **Score Initialization**: New names start with a score of 0:0 when first entered.
-- **Player Switching**: After each game, you can switch players while scores remain separate and intact.
+**Custom Player Names**: You can now input and save custom names for players.
+**Persistent Scores**: Player scores are retained regardless of name entry order (e.g., A:B or B:A) and case (e.g., "John" or "JOHN").
+**Score Initialization**: New names start with a score of 0:0 when first entered.
+**Player Switching**: After each game, you can switch players while scores remain separate and intact.
 
 ## 🎯 Future Goals
 
 I have some exciting plans for future updates:
 
-- **Responsive Design**: Ensure the game looks great on all devices.
-- **Personalized Design**: Tailor the design to better fit my needs and preferences.
-- **Additional Features**: Implement any new, innovative features that come to mind.
-- **Timing Mechanisms**: Possibly add timing elements to enhance gameplay.
-- **Community Ideas**: I welcome suggestions and ideas from the community.
-- **Code Improvement**: Strive for cleaner, more efficient code.
+**Responsive Design**: Ensure the game looks great on all devices.
+**Personalized Design**: Tailor the design to better fit my needs and preferences.
+**Additional Features**: Implement any new, innovative features that come to mind.
+**Timing Mechanisms**: Possibly add timing elements to enhance gameplay.
+**Community Ideas**: I welcome suggestions and ideas from the community.
+**Code Improvement**: Strive for cleaner, more efficient code.
 
 ## 🎅 Authors
 
-- **Original Project by Vitalijus**: [GitHub Repository](https://github.com/vitalijuss/tic_tac_toe)  
-  Published Site: [Live Demo](https://vitalijuss.github.io/tic_tac_toe/)
+**Original Project by Vitalijus**: [GitHub Repository](https://github.com/vitalijuss/tic_tac_toe)  
+ Published Site: [Live Demo](https://vitalijuss.github.io/tic_tac_toe/)
 
-- **My Version**: [GitHub Repository](https://github.com/bartasd/tic-tac-toe)  
-  Published Site: [Live Demo](https://bartasd.github.io/tic-tac-toe/)  
-  _Note_: I rewrote the JavaScript game class from scratch for learning and improvement purposes.
+**My Version**: [GitHub Repository](https://github.com/bartasd/tic-tac-toe)  
+ Published Site: [Live Demo](https://bartasd.github.io/tic-tac-toe/)  
+ _Note_: I rewrote the JavaScript game class from scratch for learning and improvement purposes.
