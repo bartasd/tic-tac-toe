@@ -55,6 +55,35 @@ h1 {
   height: 180px;
   width: 180px;
   text-align: center;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(90deg);
+  }
+  50.01% {
+    transform: rotateY(-90deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.flip-animation {
+  animation: flip 1s ease-in-out forwards;
+}
+
+.clicked {
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px white;
+  height: 160px;
+  width: 160px;
 }
 
 .tile.border {

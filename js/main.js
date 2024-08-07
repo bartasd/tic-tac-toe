@@ -74,7 +74,16 @@ class Game {
   makemove(tile) {
     if (this.plot[tile].innerText == "" && this.winner == null) {
       const char = this.turn ? "X" : "O";
-      this.plot[tile].innerText = char;
+      this.plot[tile].classList.add("flip-animation");
+      this.plot[tile].classList.add("clicked");
+      setTimeout(() => {
+        this.plot[tile].innerText = char;
+      }, 500);
+      this.plot[tile].addEventListener(
+        "animationend",
+        () => element.classList.remove("flip-animation"),
+        { once: true }
+      );
       this.gameplay[tile] = char;
       this.checkStatus();
     }
@@ -151,6 +160,7 @@ class Game {
     for (let i = 0; i < 9; i++) {
       this.plot[i].innerText = "";
       this.gameplay[i] = null;
+      this.plot[i].classList.remove("clicked");
     }
     this.showButtons(false);
   }
