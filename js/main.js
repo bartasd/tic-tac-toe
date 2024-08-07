@@ -81,7 +81,7 @@ class Game {
       }, 500);
       this.plot[tile].addEventListener(
         "animationend",
-        () => element.classList.remove("flip-animation"),
+        () => this.plot[tile].classList.remove("flip-animation"),
         { once: true }
       );
       this.gameplay[tile] = char;
